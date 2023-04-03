@@ -9,5 +9,5 @@ services:
         tty: true
         restart: unless-stopped
         volumes:
-        - ./onie:/var/www/
+        - ./ztp:/var/www/
         - ./nginx.conf:/etc/nginx/nginx.conf
