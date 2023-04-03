@@ -1,0 +1,1187 @@
+{
+    "MAB_PORT_CONFIG_TABLE": {
+        "Ethernet52": {},
+        "Ethernet2": {},
+        "Ethernet35": {},
+        "Ethernet18": {},
+        "Ethernet41": {},
+        "Ethernet42": {},
+        "Ethernet37": {},
+        "Ethernet5": {},
+        "Ethernet68": {},
+        "Ethernet11": {},
+        "Ethernet34": {},
+        "Ethernet38": {},
+        "Ethernet3": {},
+        "Ethernet60": {},
+        "Ethernet56": {},
+        "Ethernet36": {},
+        "Ethernet19": {},
+        "Ethernet43": {},
+        "Ethernet48": {},
+        "Ethernet20": {},
+        "Ethernet32": {},
+        "Ethernet64": {},
+        "Ethernet21": {},
+        "Ethernet44": {},
+        "Ethernet29": {},
+        "Ethernet72": {},
+        "Ethernet22": {},
+        "Ethernet1": {},
+        "Ethernet24": {},
+        "Ethernet30": {},
+        "Ethernet47": {},
+        "Ethernet15": {},
+        "Ethernet8": {},
+        "Ethernet10": {},
+        "Ethernet26": {},
+        "Ethernet45": {},
+        "Ethernet46": {},
+        "Ethernet27": {},
+        "Ethernet76": {},
+        "Ethernet13": {},
+        "Ethernet33": {},
+        "Ethernet23": {},
+        "Ethernet28": {},
+        "Ethernet14": {},
+        "Ethernet7": {},
+        "Ethernet6": {},
+        "Ethernet25": {},
+        "Ethernet16": {},
+        "Ethernet40": {},
+        "Ethernet31": {},
+        "Ethernet17": {},
+        "Ethernet4": {},
+        "Ethernet12": {},
+        "Ethernet0": {},
+        "Ethernet39": {},
+        "Ethernet9": {}
+    },
+    "FEATURE": {
+        "udld": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "pmon": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "tam": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "macsec": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "swss": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "l2mcd": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "teamd": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "False",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "telemetry": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "eventd": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "snmp": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "stp": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "dhcp_relay": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "gbsyncd": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "False"
+        },
+        "vrrp": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "iccpd": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "database": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "False"
+        },
+        "lldp": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "radv": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "bgp": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "False",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "mgmt-framework": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "nat": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "sflow": {
+            "state": "enabled",
+            "has_timer": "False",
+            "has_global_scope": "True",
+            "has_per_asic_scope": "False",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        },
+        "syncd": {
+            "state": "always_enabled",
+            "has_timer": "False",
+            "has_global_scope": "False",
+            "has_per_asic_scope": "True",
+            "auto_restart": "enabled",
+            "check_up_status": "True"
+        }
+    },
+    "PORT": {
+        "Ethernet14": {
+            "index": "15",
+            "lanes": "79",
+            "mtu": "9100",
+            "alias": "Eth1/15",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet17": {
+            "index": "18",
+            "lanes": "86",
+            "mtu": "9100",
+            "alias": "Eth1/18",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet15": {
+            "index": "16",
+            "lanes": "80",
+            "mtu": "9100",
+            "alias": "Eth1/16",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet60": {
+            "index": "52",
+            "lanes": "65,66,67,68",
+            "mtu": "9100",
+            "alias": "Eth1/52",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet34": {
+            "index": "35",
+            "lanes": "31",
+            "mtu": "9100",
+            "alias": "Eth1/35",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet68": {
+            "index": "54",
+            "lanes": "33,34,35,36",
+            "mtu": "9100",
+            "alias": "Eth1/54",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet64": {
+            "index": "53",
+            "lanes": "1,2,3,4",
+            "mtu": "9100",
+            "alias": "Eth1/53",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet5": {
+            "index": "6",
+            "lanes": "58",
+            "mtu": "9100",
+            "alias": "Eth1/6",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet18": {
+            "index": "19",
+            "lanes": "87",
+            "mtu": "9100",
+            "alias": "Eth1/19",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet38": {
+            "index": "39",
+            "lanes": "99",
+            "mtu": "9100",
+            "alias": "Eth1/39",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet24": {
+            "index": "25",
+            "lanes": "13",
+            "mtu": "9100",
+            "alias": "Eth1/25",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet25": {
+            "index": "26",
+            "lanes": "14",
+            "mtu": "9100",
+            "alias": "Eth1/26",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet45": {
+            "index": "46",
+            "lanes": "114",
+            "mtu": "9100",
+            "alias": "Eth1/46",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet30": {
+            "index": "31",
+            "lanes": "23",
+            "mtu": "9100",
+            "alias": "Eth1/31",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet43": {
+            "index": "44",
+            "lanes": "108",
+            "mtu": "9100",
+            "alias": "Eth1/44",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet8": {
+            "index": "9",
+            "lanes": "61",
+            "mtu": "9100",
+            "alias": "Eth1/9",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet39": {
+            "index": "40",
+            "lanes": "100",
+            "mtu": "9100",
+            "alias": "Eth1/40",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet41": {
+            "index": "42",
+            "lanes": "106",
+            "mtu": "9100",
+            "alias": "Eth1/42",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet56": {
+            "index": "51",
+            "lanes": "69,70,71,72",
+            "mtu": "9100",
+            "alias": "Eth1/51",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet19": {
+            "index": "20",
+            "lanes": "88",
+            "mtu": "9100",
+            "alias": "Eth1/20",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet32": {
+            "index": "33",
+            "lanes": "29",
+            "mtu": "9100",
+            "alias": "Eth1/33",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet2": {
+            "index": "3",
+            "lanes": "51",
+            "mtu": "9100",
+            "alias": "Eth1/3",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "up",
+            "description": "Connected to leaf3 Eth1/8"
+        },
+        "Ethernet6": {
+            "index": "7",
+            "lanes": "59",
+            "mtu": "9100",
+            "alias": "Eth1/7",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet72": {
+            "index": "55",
+            "lanes": "5,6,7,8",
+            "mtu": "9100",
+            "alias": "Eth1/55",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet37": {
+            "index": "38",
+            "lanes": "98",
+            "mtu": "9100",
+            "alias": "Eth1/38",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet11": {
+            "index": "12",
+            "lanes": "64",
+            "mtu": "9100",
+            "alias": "Eth1/12",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet23": {
+            "index": "24",
+            "lanes": "96",
+            "mtu": "9100",
+            "alias": "Eth1/24",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet44": {
+            "index": "45",
+            "lanes": "113",
+            "mtu": "9100",
+            "alias": "Eth1/45",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet21": {
+            "index": "22",
+            "lanes": "94",
+            "mtu": "9100",
+            "alias": "Eth1/22",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet46": {
+            "index": "47",
+            "lanes": "115",
+            "mtu": "9100",
+            "alias": "Eth1/47",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet10": {
+            "index": "11",
+            "lanes": "63",
+            "mtu": "9100",
+            "alias": "Eth1/11",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet28": {
+            "index": "29",
+            "lanes": "21",
+            "mtu": "9100",
+            "alias": "Eth1/29",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet31": {
+            "index": "32",
+            "lanes": "24",
+            "mtu": "9100",
+            "alias": "Eth1/32",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet35": {
+            "index": "36",
+            "lanes": "32",
+            "mtu": "9100",
+            "alias": "Eth1/36",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet0": {
+            "index": "1",
+            "lanes": "49",
+            "mtu": "9100",
+            "alias": "Eth1/1",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "up",
+            "description": "Connected to leaf1 Eth1/8"
+        },
+        "Ethernet1": {
+            "index": "2",
+            "lanes": "50",
+            "mtu": "9100",
+            "alias": "Eth1/2",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "up",
+            "description": "Connected to leaf2 Eth1/8"
+        },
+        "Ethernet42": {
+            "index": "43",
+            "lanes": "107",
+            "mtu": "9100",
+            "alias": "Eth1/43",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet52": {
+            "index": "50",
+            "lanes": "125,126,127,128",
+            "mtu": "9100",
+            "alias": "Eth1/50",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet33": {
+            "index": "34",
+            "lanes": "30",
+            "mtu": "9100",
+            "alias": "Eth1/34",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet7": {
+            "index": "8",
+            "lanes": "60",
+            "mtu": "9100",
+            "alias": "Eth1/8",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet3": {
+            "index": "4",
+            "lanes": "52",
+            "mtu": "9100",
+            "alias": "Eth1/4",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "up",
+            "description": "Connected to leaf4 Eth1/8"
+        },
+        "Ethernet76": {
+            "index": "56",
+            "lanes": "41,42,43,44",
+            "mtu": "9100",
+            "alias": "Eth1/56",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet29": {
+            "index": "30",
+            "lanes": "22",
+            "mtu": "9100",
+            "alias": "Eth1/30",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet26": {
+            "index": "27",
+            "lanes": "15",
+            "mtu": "9100",
+            "alias": "Eth1/27",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet13": {
+            "index": "14",
+            "lanes": "78",
+            "mtu": "9100",
+            "alias": "Eth1/14",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet4": {
+            "index": "5",
+            "lanes": "57",
+            "mtu": "9100",
+            "alias": "Eth1/5",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet27": {
+            "index": "28",
+            "lanes": "16",
+            "mtu": "9100",
+            "alias": "Eth1/28",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet22": {
+            "index": "23",
+            "lanes": "95",
+            "mtu": "9100",
+            "alias": "Eth1/23",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet40": {
+            "index": "41",
+            "lanes": "105",
+            "mtu": "9100",
+            "alias": "Eth1/41",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet36": {
+            "index": "37",
+            "lanes": "97",
+            "mtu": "9100",
+            "alias": "Eth1/37",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet47": {
+            "index": "48",
+            "lanes": "116",
+            "mtu": "9100",
+            "alias": "Eth1/48",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet9": {
+            "index": "10",
+            "lanes": "62",
+            "mtu": "9100",
+            "alias": "Eth1/10",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet12": {
+            "index": "13",
+            "lanes": "77",
+            "mtu": "9100",
+            "alias": "Eth1/13",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet48": {
+            "index": "49",
+            "lanes": "121,122,123,124",
+            "mtu": "9100",
+            "alias": "Eth1/49",
+            "speed": "100000",
+            "valid_speeds": "100000, 40000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet20": {
+            "index": "21",
+            "lanes": "93",
+            "mtu": "9100",
+            "alias": "Eth1/21",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        },
+        "Ethernet16": {
+            "index": "17",
+            "lanes": "85",
+            "mtu": "9100",
+            "alias": "Eth1/17",
+            "speed": "25000",
+            "fec": "none",
+            "admin_status": "down"
+        }
+    },
+    "PAC_PORT_CONFIG_TABLE": {
+        "Ethernet21": {},
+        "Ethernet17": {},
+        "Ethernet40": {},
+        "Ethernet26": {},
+        "Ethernet24": {},
+        "Ethernet12": {},
+        "Ethernet20": {},
+        "Ethernet8": {},
+        "Ethernet15": {},
+        "Ethernet28": {},
+        "Ethernet34": {},
+        "Ethernet46": {},
+        "Ethernet41": {},
+        "Ethernet0": {},
+        "Ethernet5": {},
+        "Ethernet45": {},
+        "Ethernet7": {},
+        "Ethernet27": {},
+        "Ethernet19": {},
+        "Ethernet14": {},
+        "Ethernet36": {},
+        "Ethernet76": {},
+        "Ethernet64": {},
+        "Ethernet10": {},
+        "Ethernet39": {},
+        "Ethernet47": {},
+        "Ethernet42": {},
+        "Ethernet2": {},
+        "Ethernet72": {},
+        "Ethernet16": {},
+        "Ethernet43": {},
+        "Ethernet31": {},
+        "Ethernet68": {},
+        "Ethernet56": {},
+        "Ethernet44": {},
+        "Ethernet6": {},
+        "Ethernet1": {},
+        "Ethernet35": {},
+        "Ethernet32": {},
+        "Ethernet60": {},
+        "Ethernet29": {},
+        "Ethernet52": {},
+        "Ethernet23": {},
+        "Ethernet30": {},
+        "Ethernet33": {},
+        "Ethernet22": {},
+        "Ethernet9": {},
+        "Ethernet13": {},
+        "Ethernet18": {},
+        "Ethernet3": {},
+        "Ethernet4": {},
+        "Ethernet11": {},
+        "Ethernet37": {},
+        "Ethernet25": {},
+        "Ethernet38": {},
+        "Ethernet48": {}
+    },
+    "HOST_FEATURE": {
+        "cron": {
+            "check_up_status": "False"
+        },
+        "hostcfgd": {
+            "check_up_status": "False"
+        },
+        "warmboot-finalizer": {
+            "check_up_status": "True"
+        },
+        "docker": {
+            "check_up_status": "False"
+        },
+        "xphyd": {
+            "check_up_status": "True"
+        },
+        "caclmgrd": {
+            "check_up_status": "False"
+        }
+    },
+    "BGP_GLOBALS": {
+        "default": {
+            "log_nbr_state_changes": "true",
+            "load_balance_mp_relax": "true",
+            "network_import_check": "true",
+            "fast_external_failover": "true",
+            "local_asn": "65000",
+            "always_compare_med": "false",
+            "holdtime": "180",
+            "keepalive": "60",
+            "ebgp_requires_policy": "false",
+            "ignore_as_path_length": "false",
+            "external_compare_router_id": "false",
+            "router_id": "10.0.1.2"
+        }
+    },
+    "BGP_PEER_GROUP_AF": {
+        "default|LEAF|l2vpn_evpn": {
+            "admin_status": "true"
+        },
+        "default|LEAF|ipv4_unicast": {
+            "send_community": "both",
+            "admin_status": "true",
+            "send_default_route": "false",
+            "max_prefix_warning_only": "false",
+            "rrclient": "false"
+        }
+    },
+    "PORT_GROUP": {
+        "11": {
+            "speed": "25000"
+        },
+        "3": {
+            "speed": "25000"
+        },
+        "1": {
+            "speed": "25000"
+        },
+        "5": {
+            "speed": "25000"
+        },
+        "12": {
+            "speed": "25000"
+        },
+        "2": {
+            "speed": "25000"
+        },
+        "6": {
+            "speed": "25000"
+        },
+        "9": {
+            "speed": "25000"
+        },
+        "7": {
+            "speed": "25000"
+        },
+        "8": {
+            "speed": "25000"
+        },
+        "4": {
+            "speed": "25000"
+        },
+        "10": {
+            "speed": "25000"
+        }
+    },
+    "FLEX_COUNTER_TABLE": {
+        "RIF": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "QUEUE_WATERMARK": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "PORT": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "PG_WATERMARK": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "PFCWD": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "QUEUE": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "PHY": {
+            "FLEX_COUNTER_STATUS": "enable"
+        },
+        "TUNNEL": {
+            "FLEX_COUNTER_STATUS": "enable"
+        }
+    },
+    "DEVICE_METADATA": {
+        "localhost": {
+            "hwsku": "DellEMC-S5248f-P-25G-DPB",
+            "mac": "0c:9e:e3:80:00:08",
+            "platform": "x86_64-kvm_x86_64-r0",
+            "type": "LeafRouter",
+            "hostname": "spine2",
+            "default_config_profile": "l3",
+            "frr_mgmt_framework_config": "true",
+            "intf_naming_mode": "standard"
+        }
+    },
+    "CLASSIFIER_TABLE": {
+        "class-oob-dhcp-client": {
+            "DESCRIPTION": "",
+            "ETHER_TYPE": "0x800",
+            "IP_PROTOCOL": "17",
+            "L4_DST_PORT": "68",
+            "MATCH_TYPE": "FIELDS"
+        },
+        "class-oob-dhcp-server": {
+            "DESCRIPTION": "",
+            "ETHER_TYPE": "0x800",
+            "IP_PROTOCOL": "17",
+            "L4_DST_PORT": "67",
+            "MATCH_TYPE": "FIELDS"
+        },
+        "class-oob-ip-multicast": {
+            "DESCRIPTION": "",
+            "ETHER_TYPE": "0x800",
+            "DST_IP": "224.0.0.0/4",
+            "MATCH_TYPE": "FIELDS"
+        },
+        "class-oob-arp": {
+            "DESCRIPTION": "",
+            "ETHER_TYPE": "0x806",
+            "MATCH_TYPE": "FIELDS"
+        },
+        "class-oob-ipv6-multicast": {
+            "DESCRIPTION": "",
+            "ETHER_TYPE": "0x86DD",
+            "DST_IPV6": "ff00::/8",
+            "MATCH_TYPE": "FIELDS"
+        }
+    },
+    "BGP_NEIGHBOR": {
+        "default|Ethernet0": {
+            "peer_group_name": "LEAF",
+            "passive_mode": "false"
+        },
+        "default|Ethernet1": {
+            "peer_group_name": "LEAF",
+            "passive_mode": "false"
+        },
+        "default|Ethernet3": {
+            "peer_group_name": "LEAF",
+            "passive_mode": "false"
+        },
+        "default|Ethernet2": {
+            "peer_group_name": "LEAF",
+            "passive_mode": "false"
+        }
+    },
+    "INTERFACE": {
+        "Ethernet2": {
+            "ipv6_use_link_local_only": "enable"
+        },
+        "Ethernet1": {
+            "ipv6_use_link_local_only": "enable"
+        },
+        "Ethernet3": {
+            "ipv6_use_link_local_only": "enable"
+        },
+        "Ethernet0": {
+            "ipv6_use_link_local_only": "enable"
+        }
+    },
+    "BGP_GLOBALS_AF": {
+        "default|l2vpn_evpn": {
+            "advertise-all-vni": "true"
+        },
+        "default|ipv4_unicast": {
+            "max_ibgp_paths": "1",
+            "route_flap_dampen": "false",
+            "max_ebgp_paths": "1"
+        }
+    },
+    "LOOPBACK": {
+        "Loopback0": {
+            "admin_status": "up"
+        }
+    },
+    "BGP_PEER_GROUP": {
+        "default|LEAF": {
+            "peer_type": "external",
+            "bfd_profile": "profile1",
+            "bfd_check_ctrl_plane_failure": "true",
+            "bfd": "true",
+            "keepalive": "3",
+            "passive_mode": "false",
+            "ebgp_multihop": "false",
+            "conn_retry": "30",
+            "admin_status": "true",
+            "min_adv_interval": "5",
+            "holdtime": "9",
+            "capability_ext_nexthop": "true"
+        }
+    },
+    "NAT_GLOBAL": {
+        "Values": {
+            "admin_mode": "disabled",
+            "nat_timeout": "600",
+            "nat_tcp_timeout": "86400",
+            "nat_udp_timeout": "300"
+        }
+    },
+    "COREDUMP": {
+        "config": {
+            "enabled": "true"
+        }
+    },
+    "POLICY_TABLE": {
+        "oob-qos-policy": {
+            "DESCRIPTION": "QoS Ratelimiting policy for OOB port",
+            "TYPE": "QOS"
+        }
+    },
+    "ECMP_LOADSHARE_TABLE_IPV4": {
+        "ipv4": {
+            "ipv4_dst_ip": "true",
+            "ipv4_l4_dst_port": "true",
+            "ipv4_l4_src_port": "true",
+            "ipv4_protocol": "true",
+            "ipv4_src_ip": "true"
+        }
+    },
+    "ROUTE_REDISTRIBUTE": {
+        "default|connected|bgp|ipv4": {}
+    },
+    "LOOPBACK_INTERFACE": {
+        "Loopback0": {},
+        "Loopback0|10.0.1.2/32": {}
+    },
+    "POLICY_SECTIONS_TABLE": {
+        "oob-qos-policy|class-oob-ipv6-multicast": {
+            "DESCRIPTION": "",
+            "PRIORITY": "1005",
+            "SET_POLICER_CIR": "256000"
+        },
+        "oob-qos-policy|class-oob-dhcp-server": {
+            "DESCRIPTION": "",
+            "PRIORITY": "1015",
+            "SET_POLICER_CIR": "512000"
+        },
+        "oob-qos-policy|class-oob-arp": {
+            "DESCRIPTION": "",
+            "PRIORITY": "1010",
+            "SET_POLICER_CIR": "256000"
+        },
+        "oob-qos-policy|class-oob-dhcp-client": {
+            "DESCRIPTION": "",
+            "PRIORITY": "1020",
+            "SET_POLICER_CIR": "512000"
+        },
+        "oob-qos-policy|class-oob-ip-multicast": {
+            "DESCRIPTION": "",
+            "PRIORITY": "1000",
+            "SET_POLICER_CIR": "256000"
+        }
+    },
+    "VERSIONS": {
+        "DATABASE": {
+            "VERSION": "version_4_0_2"
+        }
+    },
+    "VRF": {
+        "default": {
+            "enabled": "true"
+        }
+    },
+    "MGMT_VRF_CONFIG": {
+        "vrf_global": {
+            "mgmtVrfEnabled": "true"
+        }
+    },
+    "CLOCK": {
+        "system": {
+            "timezone_name": "CET"
+        }
+    },
+    "ZTP": {
+        "config": {
+            "admin-mode": "false"
+        }
+    },
+    "ECMP_LOADSHARE_TABLE_IPV6": {
+        "ipv6": {
+            "ipv6_dst_ip": "true",
+            "ipv6_l4_dst_port": "true",
+            "ipv6_l4_src_port": "true",
+            "ipv6_next_hdr": "true",
+            "ipv6_src_ip": "true"
+        }
+    },
+    "HARDWARE": {
+        "ACCESS_LIST": {
+            "LOOKUP_MODE": "optimized",
+            "COUNTER_MODE": "per-rule"
+        }
+    },
+    "POLICY_BINDING_TABLE": {
+        "CtrlPlane": {
+            "INGRESS_QOS_POLICY": "oob-qos-policy"
+        }
+    },
+    "SWITCH": {
+        "switch": {
+            "fdb_aging_time": "600"
+        }
+    },
+    "KDUMP": {
+        "config": {
+            "enabled": "true",
+            "num_dumps": "3",
+            "memory": "0M-2G:256M,2G-4G:256M,4G-8G:384M,8G-:448M"
+        }
+    },
+    "SSH_SERVER_VRF": {
+        "mgmt": {
+            "port": "22"
+        }
+    },
+    "NTP": {
+        "global": {
+            "vrf": "mgmt",
+            "auth_enabled": "false"
+        }
+    },
+    "NTP_SERVER": {
+        "172.16.100.1": {
+            "minpoll": "6",
+            "maxpoll": "10"
+        }
+    },
+    "MGMT_PORT": {
+        "eth0": {
+            "mtu": "1500",
+            "speed": "1000",
+            "admin_status": "up",
+            "autoneg": "true",
+            "description": "Management0"
+        }
+    }
+}
